@@ -1,4 +1,4 @@
-FROM frekele/gradle:3-jdk8
+FROM java:8-jdk
 
 MAINTAINER Utkucan <utkucanyucel@gmail.com>
 
@@ -7,4 +7,6 @@ RUN update-ca-certificates \
  && apt-get install -y --no-install-recommends \
             ant \
             rsync \
-            bzip2
+            bzip2 \
+            git \
+            openssh
