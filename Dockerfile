@@ -9,4 +9,4 @@ RUN update-ca-certificates \
             rsync \
             bzip2 \
             git \
-            openssh
+            openssh-client
